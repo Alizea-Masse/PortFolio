@@ -1,9 +1,11 @@
 import Head from 'next/head'
 import {GiNightSky} from 'react-icons/gi'
-import {AiFillLinkedin, AiFillGithub} from 'react-icons/ai'
+import {AiFillLinkedin, AiFillGithub,AiFillHtml5} from 'react-icons/ai'
 import {FaNodeJs} from 'react-icons/fa'
-import {DiPostgresql} from 'react-icons/di'
+import {DiPostgresql,DiCss3} from 'react-icons/di'
 import {GrReactjs} from 'react-icons/gr'
+import {TbBrandNextjs} from 'react-icons/tb'
+import {SiFirebase,SiTailwindcss,SiVercel} from 'react-icons/si'
 import Image from 'next/image'
 import devAli from '../../public/images/devAli.png'
 import insta from '../../public/images/insta.png'
@@ -77,6 +79,8 @@ projets d'avenir !</p>
             <FaNodeJs className='text-5xl'/>
             <DiPostgresql className='text-5xl'/>
             <GrReactjs className='text-5xl'/>
+            <AiFillHtml5 className='text-5xl'/>
+            <DiCss3 className='text-5xl'/>
             </div>
             <br/> 
 
@@ -103,10 +107,31 @@ projets d'avenir !</p>
           <Image className="lg:h-48 md:h-36 w-full object-cover object-center" src={insta} alt="blog"/>
           <div className="p-6">
             <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">PROJET</h2>
-            <h1 className="title-font text-lg font-medium text-gray-900 mb-3 dark:text-gray-300">Instagram 2.0</h1>
-            <p className="leading-relaxed mb-3">Réalisation en cours.</p>
+            <h1 className="title-font text-lg font-medium text-gray-900 mb-3 dark:text-gray-300">Instagram Copy</h1>
+
+
+            <p className="leading-relaxed mb-3"><a className='bg-slate-200 rounded-sm p-1' href='https://www.youtube.com/watch?v=a6Xs2Ir40OI' target='_blank'>Tutoriel</a> réalisé dans le but de parfaire mes connaissances, découvrir de nouvelles technologies ainsi que témoigner de mon adaptabilité. Il m'est possible d'expliquer toutes les étapes du code. </p>
+            <div className='flex gap-3'>
+            <TbBrandNextjs className='text-5xl'/>
+            <GrReactjs className='text-5xl'/>
+            <SiFirebase className='text-5xl'/>
+            <AiFillHtml5 className='text-5xl'/>
+            <SiTailwindcss className='text-5xl'/>
+            <SiVercel className='text-5xl'/>
+            </div>
+            <br/> 
+            - Création d'une interface responsive, mobile first avec tailwind CSS <br/> <br/>
+            - Création d'une interface dynamique avec ReactJS, utilisation du state <br/> <br/>
+            - Utilisation de Recoil afin de gérer le store de l'application <br/> <br/>
+            - Création d'une base de données avec Firebase afin de gérer les likes, les commentaires et les posts <br/> <br/>
+            - Prise en main du framework React, NextJs. <br/> <br/>
+            - Création de l'authentification avec Google comme provider grâce à NextAuth <br/> <br/>
+            - Déploiement de l'application sur Vercel et gestion des variables d'environnement <br/> <br/>
+
+           
+            
             <div className="flex items-center flex-wrap">
-              <a href='https://instagram-copy-alpha.vercel.app/' target='_blank' className="text-red-500 inline-flex items-center md:mb-2 lg:mb-0">Visiter le site
+              <a href='https://instagram-copy-alpha.vercel.app/' target='_blank' className="text-blue-500 inline-flex items-center md:mb-2 lg:mb-0">Visiter le site
                 <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
                   <path d="M5 12h14"></path>
                   <path d="M12 5l7 7-7 7"></path>

@@ -121,7 +121,7 @@ projets d'avenir !</p>
             </div>
             <br/> 
             - Création d'une interface responsive, mobile first avec tailwind CSS <br/> <br/>
-            - Création d'une interface dynamique avec ReactJS, utilisation du state <br/> <br/>
+            - Création d'une interface dynamique et affichage conditionnel avec ReactJS, utilisation du state ainsi que de logique dans le JSX <br/> <br/>
             - Utilisation de Recoil afin de gérer le store de l'application <br/> <br/>
             - Création d'une base de données avec Firebase afin de gérer les likes, les commentaires et les posts <br/> <br/>
             - Prise en main du framework React, NextJs. <br/> <br/>

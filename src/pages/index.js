@@ -102,6 +102,8 @@ projets d'avenir !</p>
           </div>
         </div>
       </div>
+
+    
       <div className="p-4 md:w-1/3">
         <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
           <Image className="lg:h-48 md:h-36 w-full object-cover object-center" src={insta} alt="blog"/>
@@ -110,7 +112,7 @@ projets d'avenir !</p>
             <h1 className="title-font text-lg font-medium text-gray-900 mb-3 dark:text-gray-300">Instagram Copy</h1>
 
 
-            <p className="leading-relaxed mb-3"><a className='bg-slate-200 rounded-sm p-1' href='https://www.youtube.com/watch?v=a6Xs2Ir40OI' target='_blank'>Tutoriel</a> réalisé dans le but de parfaire mes connaissances, découvrir de nouvelles technologies ainsi que témoigner de mon adaptabilité. Il m'est possible d'expliquer toutes les étapes du code. </p>
+            <p className="leading-relaxed mb-3"><a className='bg-slate-200 rounded-sm p-1 dark:text-gray-500' href='https://www.youtube.com/watch?v=a6Xs2Ir40OI' target='_blank'>Tutoriel</a> réalisé dans le but de parfaire mes connaissances, découvrir de nouvelles technologies ainsi que témoigner de mon adaptabilité. Il m'est possible d'expliquer toutes les étapes du code. </p>
             <div className='flex gap-3'>
             <TbBrandNextjs className='text-5xl'/>
             <GrReactjs className='text-5xl'/>
@@ -141,6 +143,7 @@ projets d'avenir !</p>
           </div>
         </div>
       </div>
+      
       <div className="p-4 md:w-1/3">
         <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
           <Image className="lg:h-48 md:h-36 w-full object-cover object-center" src={shoppingApp} alt="blog"/>

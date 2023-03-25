@@ -38,7 +38,7 @@ export default function Home() {
           <h1 className='text-2xl font-BebasNeue dark:text-gray-300'>Développer par Alizéa Massé</h1>
           <ul className='flex items-center'>
             <li><GiNightSky onClick={()=> setDarkMode(!darkMode)} className='cursor-pointer text-4xl dark:text-gray-300'/></li>
-            <li><a className=' bg-gradient-to-r from-red-700 to-red-400 dark:from-blue-900 dark:to-blue-600  text-white px-4 py-2 rounded-md ml-8 ' href="/CV_ALTERNANCE_ALIZEA_MASSE.pdf" target="_blank" rel="noopener noreferrer">CV</a></li>
+            <li><a className=' bg-gradient-to-r from-red-700 to-red-400 dark:from-blue-900 dark:to-blue-600  text-white px-4 py-2 rounded-md ml-8 ' href="/CV_Alizéa-Massé.pdf" target="_blank" rel="noopener noreferrer">CV</a></li>
           </ul>
  <div className=' h-45 w-96 mx-auto block '>
           <Image src={devAli} />

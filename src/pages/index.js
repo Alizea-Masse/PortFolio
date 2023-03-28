@@ -64,10 +64,10 @@ projets d'avenir !</p>
         </section>
 
         <section className="text-gray-600 body-font dark:text-gray-300">
-  <div className="container px-5 py-24 mx-auto">
+  <div className="container py-24 mx-auto">
     <div className="flex flex-wrap -m-4">
       <div className="p-4 md:w-1/3">
-        <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+        <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden w-72">
           <Image className="lg:h-48 md:h-36 w-full object-cover object-center" src={savoirsApp} alt="blog"/>
           <div className="p-6">
             <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">PROJET</h2>
@@ -105,7 +105,7 @@ projets d'avenir !</p>
 
     
       <div className="p-4 md:w-1/3">
-        <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+        <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden w-72">
           <Image className="lg:h-48 md:h-36 w-full object-cover object-center" src={insta} alt="blog"/>
           <div className="p-6">
             <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">PROJET</h2>
@@ -145,11 +145,12 @@ projets d'avenir !</p>
       </div>
       
       <div className="p-4 md:w-1/3">
-        <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+        <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden w-72">
           <Image className="lg:h-48 md:h-36 w-full object-cover object-center" src={LinkedIn} alt="blog"/>
           <div className="p-6">
             <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">PROJET</h2>
             <h1 className="title-font text-lg font-medium text-gray-900 mb-3 dark:text-gray-300">LinkedIn Copy</h1>
+            
             <p className="leading-relaxed mb-3">Projet à venir.</p>
             <div className="flex items-center flex-wrap ">
               <a href='https://linkedin-clone-2ac24.web.app/' target='_blank' className="text-blue-500 inline-flex items-center md:mb-2 lg:mb-0">Visiter le site

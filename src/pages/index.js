@@ -113,8 +113,7 @@ export default function Home() {
                         <AiFillHtml5 className="text-5xl" />
                         <DiCss3 className="text-5xl" />
                       </div>
-                      <br />
-                      - Création d'une API REST avec Node.js et Express.js{" "}
+                      <br />- Création d'une API REST avec Node.js et Express.js{" "}
                       <br /> <br />
                       - Création d'une base de données avec PostgreSQL <br />{" "}
                       <br />
@@ -149,8 +148,6 @@ export default function Home() {
                 </div>
               </div>
 
-    
-
               <div className="p-4 md:w-1/3">
                 <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden w-72">
                   <Image
@@ -174,13 +171,18 @@ export default function Home() {
                         <SiFirebase className="text-5xl" />
                         <SiRedux className="text-5xl" />
                       </div>
-                      <br/> 
-            - Création d'une interface responsive. <br/> <br/>
-            - Création d'une interface dynamique et affichage conditionnel avec ReactJS, utilisation du state ainsi que de logique dans le JSX <br/> <br/>
-            - Utilisation de Redux afin de gérer le store de l'application <br/> <br/>
-            - Création d'une base de données avec Firebase afin de gérer les posts <br/> <br/>
-            - Création de l'authentification avec Firebase <br/> <br/>
-            - Déploiement de l'application sur Firebase <br/> <br/>
+                      <br />
+                      - Création d'une interface responsive. <br /> <br />
+                      - Création d'une interface dynamique et affichage
+                      conditionnel avec ReactJS, utilisation du state ainsi que
+                      de logique dans le JSX <br /> <br />
+                      - Utilisation de Redux afin de gérer le store de
+                      l'application <br /> <br />
+                      - Création d'une base de données avec Firebase afin de
+                      gérer les posts <br /> <br />
+                      - Création de l'authentification avec Firebase <br />{" "}
+                      <br />
+                      - Déploiement de l'application sur Firebase <br /> <br />
                     </p>
                     <div className="flex items-center flex-wrap ">
                       <a

@@ -11,6 +11,7 @@ import devAli from "../../public/images/devAli.png";
 import insta from "../../public/images/insta.png";
 import savoirsApp from "../../public/images/savoirs.png";
 import LinkedIn from "../../public/images/linkedin_logo.png";
+import Gmail from "../../public/images/Gmail-Logo.png";
 import { useState } from "react";
 
 export default function Home() {
@@ -172,7 +173,7 @@ export default function Home() {
                         <SiRedux className="text-5xl" />
                       </div>
                       <br />
-                      - Création d'une interface responsive. <br /> <br />
+                      - Création d'une interface en html/css. <br /> <br />
                       - Création d'une interface dynamique et affichage
                       conditionnel avec ReactJS, utilisation du state ainsi que
                       de logique dans le JSX <br /> <br />
@@ -187,6 +188,66 @@ export default function Home() {
                     <div className="flex items-center flex-wrap ">
                       <a
                         href="https://linkedin-clone-2ac24.web.app/"
+                        target="_blank"
+                        className="text-blue-500 inline-flex items-center md:mb-2 lg:mb-0"
+                      >
+                        Visiter le site
+                        <svg
+                          className="w-4 h-4 ml-2"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                          fill="none"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        >
+                          <path d="M5 12h14"></path>
+                          <path d="M12 5l7 7-7 7"></path>
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="p-4 md:w-1/3">
+                <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden w-72">
+                  <Image
+                    className="lg:h-48 md:h-36 w-full object-cover object-center"
+                    src={Gmail}
+                    alt="blog"
+                  />
+                  <div className="p-6">
+                    <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                      PROJET
+                    </h2>
+                    <h1 className="title-font text-lg font-medium text-gray-900 mb-3 dark:text-gray-300">
+                      Gmail Copy
+                    </h1>
+
+                    <p className="leading-relaxed mb-3">
+                      <div className="flex gap-3">
+                        <AiFillHtml5 className="text-5xl" />
+                        <DiCss3 className="text-5xl" />
+                        <GrReactjs className="text-5xl" />
+                        <SiFirebase className="text-5xl" />
+                        <SiRedux className="text-5xl" />
+                      </div>
+                      <br />
+                      - Création d'une interface en html/css. <br /> <br />
+                      - Création d'une interface dynamique et affichage
+                      conditionnel avec ReactJS, utilisation du state ainsi que
+                      de logique dans le JSX <br /> <br />
+                      - Utilisation de Redux afin de gérer le store de
+                      l'application <br /> <br />
+                      - Création d'une base de données avec Firebase afin de
+                      gérer les mails <br /> <br />
+                      - Création de l'authentification avec Firebase et Google comme provider  <br />{" "}
+                      <br />
+                      - Déploiement de l'application sur Firebase <br /> <br />
+                    </p>
+                    <div className="flex items-center flex-wrap ">
+                      <a
+                        href="https://copy-99077.web.app/"
                         target="_blank"
                         className="text-blue-500 inline-flex items-center md:mb-2 lg:mb-0"
                       >

@@ -47,7 +47,7 @@ export default function Home() {
               <li>
                 <a
                   className=" bg-gradient-to-r from-red-700 to-red-400 dark:from-blue-900 dark:to-blue-600  text-white px-4 py-2 rounded-md ml-8 "
-                  href="/CV_Alizéa-Massé.pdf"
+                  href="/CV_ALIZEA_MASSE.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

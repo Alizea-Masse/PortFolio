@@ -12,6 +12,7 @@ import insta from "../../public/images/insta.png";
 import savoirsApp from "../../public/images/savoirs.png";
 import LinkedIn from "../../public/images/linkedin_logo.png";
 import Gmail from "../../public/images/Gmail-Logo.png";
+import Logo from "../../public/images/logo_noir.png";
 import { useState } from "react";
 
 export default function Home() {
@@ -127,6 +128,64 @@ export default function Home() {
                     <div className="flex items-center flex-wrap ">
                       <a
                         href="https://savoirs.surge.sh/"
+                        target="_blank"
+                        className="text-blue-500 inline-flex items-center md:mb-2 lg:mb-0"
+                      >
+                        Visiter le site
+                        <svg
+                          className="w-4 h-4 ml-2"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                          fill="none"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        >
+                          <path d="M5 12h14"></path>
+                          <path d="M12 5l7 7-7 7"></path>
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+               <div className="p-4 md:w-1/3">
+                <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden w-72">
+                  <Image
+                    className="lg:h-48 md:h-32 w-43 object-fill object-center"
+                    src={Logo}
+                    alt="blog"
+                  />
+                  <div className="p-6">
+                    <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                      PROJET
+                    </h2>
+                    <h1 className="title-font text-lg font-medium text-gray-900 mb-3 dark:text-gray-300">
+                      Rêve Réalité Production
+                    </h1>
+                    <div className="leading-relaxed mb-3">
+                      Réalisation complète d'un site web afin de présenter les spectacles de magie d'une boite de production bordelaise. <br /> <br />
+                      {/* icons */}
+                      <div className="flex gap-3">
+                        <FaNodeJs className="text-5xl" />
+                        <GrReactjs className="text-5xl" />
+                        <AiFillHtml5 className="text-5xl" />
+                        <DiCss3 className="text-5xl" />
+                      </div>
+                      <br /> <br />
+                      - Création d'une interface responsive avec HTML/CSS et Styled Components
+                      <br /> <br />
+                      - Dynamisation du site et mise place d'un routeur avec REACT
+                      <br /> <br />
+                      - Création d'annimation grace à la bibliothèque AOS
+                      <br /> <br />
+                      - Back-end d'un formulaire de contact avec nodemailer,
+                      xoauth et GoogleAPI 
+                    </div>
+                    <div className="flex items-center flex-wrap ">
+                      <a
+                        href="https://reve-realite.surge.sh/"
                         target="_blank"
                         className="text-blue-500 inline-flex items-center md:mb-2 lg:mb-0"
                       >

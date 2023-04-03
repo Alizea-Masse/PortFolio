@@ -12,7 +12,7 @@ import insta from "../../public/images/insta.png";
 import savoirsApp from "../../public/images/savoirs.png";
 import LinkedIn from "../../public/images/linkedin_logo.png";
 import Gmail from "../../public/images/Gmail-Logo.png";
-import Logo from "../../public/images/Logo_noir.png";
+import Logo from "../../public/images/logo_noir.png";
 import { useState } from "react";
 
 export default function Home() {

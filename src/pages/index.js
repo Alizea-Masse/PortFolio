@@ -146,6 +146,27 @@ export default function Home() {
                         </svg>
                       </a>
                     </div>
+                    <div className="flex items-center flex-wrap ">
+                      <a
+                        href="https://copy-99077.web.app/"
+                        target="_blank"
+                        className="text-blue-500 inline-flex items-center md:mb-2 lg:mb-0"
+                      >
+                        Visiter le site
+                        <svg
+                          className="w-4 h-4 ml-2"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                          fill="none"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        >
+                          <path d="M5 12h14"></path>
+                          <path d="M12 5l7 7-7 7"></path>
+                        </svg>
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -186,6 +207,27 @@ export default function Home() {
                     <div className="flex items-center flex-wrap ">
                       <a
                         href="https://reve-realite.surge.sh/"
+                        target="_blank"
+                        className="text-blue-500 inline-flex items-center md:mb-2 lg:mb-0"
+                      >
+                        Visiter le site
+                        <svg
+                          className="w-4 h-4 ml-2"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                          fill="none"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        >
+                          <path d="M5 12h14"></path>
+                          <path d="M12 5l7 7-7 7"></path>
+                        </svg>
+                      </a>
+                    </div>
+                    <div className="flex items-center flex-wrap ">
+                      <a
+                        href="https://copy-99077.web.app/"
                         target="_blank"
                         className="text-blue-500 inline-flex items-center md:mb-2 lg:mb-0"
                       >
@@ -265,6 +307,27 @@ export default function Home() {
                         </svg>
                       </a>
                     </div>
+                    <div className="flex items-center flex-wrap ">
+                      <a
+                        href="https://copy-99077.web.app/"
+                        target="_blank"
+                        className="text-blue-500 inline-flex items-center md:mb-2 lg:mb-0"
+                      >
+                        Visiter le site
+                        <svg
+                          className="w-4 h-4 ml-2"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                          fill="none"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        >
+                          <path d="M5 12h14"></path>
+                          <path d="M12 5l7 7-7 7"></path>
+                        </svg>
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -325,6 +388,27 @@ export default function Home() {
                         </svg>
                       </a>
                     </div>
+                    <div className="flex items-center flex-wrap ">
+                      <a
+                        href="https://copy-99077.web.app/"
+                        target="_blank"
+                        className="text-blue-500 inline-flex items-center md:mb-2 lg:mb-0"
+                      >
+                        Visiter le site
+                        <svg
+                          className="w-4 h-4 ml-2"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                          fill="none"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        >
+                          <path d="M5 12h14"></path>
+                          <path d="M12 5l7 7-7 7"></path>
+                        </svg>
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -352,21 +436,21 @@ export default function Home() {
                         <SiRedux className="text-5xl" />
                       </div>
                       <br />
-                      - Création d'une interface en html/css. <br /> <br />
+                      - Création d'une interface responsive en html/css. <br /> <br />
                       - Création d'une interface dynamique et affichage
                       conditionnel avec ReactJS, utilisation du state ainsi que
                       de logique dans le JSX <br /> <br />
                       - Utilisation de Redux afin de gérer le store de
                       l'application <br /> <br />
                       - Création d'une base de données avec Firebase afin de
-                      gérer les posts <br /> <br />
-                      - Création de l'authentification avec Firebase <br />{" "}
+                      gérer le chat et les canaux <br /> <br />
+                      - Création de l'authentification avec Firebase et Google comme provider <br />{" "}
                       <br />
                       - Déploiement de l'application sur Firebase <br /> <br />
                     </p>
                     <div className="flex items-center flex-wrap ">
                       <a
-                        href=""
+                        href="https://slack-copy-ed14a.web.app/"
                         target="_blank"
                         className="text-blue-500 inline-flex items-center md:mb-2 lg:mb-0"
                       >

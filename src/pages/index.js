@@ -93,7 +93,7 @@ export default function Home() {
               <div className="p-4 md:w-1/3">
                 <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden w-72">
                   <Image
-                    className="lg:h-48 md:h-36 w-full object-cover object-center"
+                    className="lg:h-48 md:h-36 w-full object-contain object-center"
                     src={savoirsApp}
                     alt="blog"
                   />
@@ -211,7 +211,7 @@ export default function Home() {
               <div className="p-4 md:w-1/3">
                 <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden w-72">
                   <Image
-                    className="lg:h-48 md:h-36 w-full object-cover object-center"
+                    className="lg:h-48 md:h-36 w-full object-contain object-center"
                     src={LinkedIn}
                     alt="blog"
                   />
@@ -271,7 +271,7 @@ export default function Home() {
               <div className="p-4 md:w-1/3">
                 <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden w-72">
                   <Image
-                    className="lg:h-48 md:h-36 w-full object-cover object-center"
+                    className="lg:h-48 md:h-36 w-full object-contain object-center"
                     src={Gmail}
                     alt="blog"
                   />
@@ -330,8 +330,68 @@ export default function Home() {
               </div>
               <div className="p-4 md:w-1/3">
                 <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden w-72">
+                  <img
+                    className="lg:h-48 md:h-36 w-full object-contain object-center"
+                    src="https://ubwp.buffalo.edu/happe/wp-content/uploads/sites/92/2019/12/slack_logo.png" 
+                    alt="blog"
+                  />
+                  <div className="p-6">
+                    <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                      PROJET
+                    </h2>
+                    <h1 className="title-font text-lg font-medium text-gray-900 mb-3 dark:text-gray-300">
+                      Slack Copy
+                    </h1>
+
+                    <p className="leading-relaxed mb-3">
+                      <div className="flex gap-3">
+                        <AiFillHtml5 className="text-5xl" />
+                        <DiCss3 className="text-5xl" />
+                        <GrReactjs className="text-5xl" />
+                        <SiFirebase className="text-5xl" />
+                        <SiRedux className="text-5xl" />
+                      </div>
+                      <br />
+                      - Création d'une interface en html/css. <br /> <br />
+                      - Création d'une interface dynamique et affichage
+                      conditionnel avec ReactJS, utilisation du state ainsi que
+                      de logique dans le JSX <br /> <br />
+                      - Utilisation de Redux afin de gérer le store de
+                      l'application <br /> <br />
+                      - Création d'une base de données avec Firebase afin de
+                      gérer les posts <br /> <br />
+                      - Création de l'authentification avec Firebase <br />{" "}
+                      <br />
+                      - Déploiement de l'application sur Firebase <br /> <br />
+                    </p>
+                    <div className="flex items-center flex-wrap ">
+                      <a
+                        href=""
+                        target="_blank"
+                        className="text-blue-500 inline-flex items-center md:mb-2 lg:mb-0"
+                      >
+                        Visiter le site
+                        <svg
+                          className="w-4 h-4 ml-2"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                          fill="none"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        >
+                          <path d="M5 12h14"></path>
+                          <path d="M12 5l7 7-7 7"></path>
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="p-4 md:w-1/3">
+                <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden w-72">
                   <Image
-                    className="lg:h-48 md:h-36 w-full object-cover object-center"
+                    className="lg:h-48 md:h-36 w-full object-contain object-center"
                     src={insta}
                     alt="blog"
                   />
@@ -402,7 +462,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-
+              
               
             </div>
           </div>

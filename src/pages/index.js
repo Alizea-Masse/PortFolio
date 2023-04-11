@@ -13,6 +13,7 @@ import savoirsApp from "../../public/images/savoirs.png";
 import LinkedIn from "../../public/images/linkedin_logo.png";
 import Gmail from "../../public/images/Gmail-Logo.png";
 import Logo from "../../public/images/Logo_noir.png";
+import greenzon from "../../public/images/greenzonport.png";
 import { useState } from "react";
 
 export default function Home() {
@@ -88,13 +89,14 @@ export default function Home() {
         </section>
 
         <section className="text-gray-600 body-font dark:text-gray-300">
-          <div className="container py-24 mx-auto">
+          <div className="container py-24 mx-auto ">
             <div className="flex flex-wrap -m-4">
+        
               <div className="p-4 md:w-1/3">
                 <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden w-72">
                   <Image
                     className="lg:h-48 md:h-36 w-full object-contain object-center"
-                    src={savoirsApp}
+                    src={insta}
                     alt="blog"
                   />
                   <div className="p-6">
@@ -102,32 +104,36 @@ export default function Home() {
                       PROJET
                     </h2>
                     <h1 className="title-font text-lg font-medium text-gray-900 mb-3 dark:text-gray-300">
-                      Transmission des savoirs
+                      Instagram Copy
                     </h1>
-                    <div className="leading-relaxed mb-3">
-                      Réalisation de la partie back-end d'un site de petites
-                      annonces. <br /> <br />
-                      {/* icons */}
-                      <div className="flex gap-3">
-                        <FaNodeJs className="text-5xl" />
-                        <DiPostgresql className="text-5xl" />
-                        <GrReactjs className="text-5xl" />
-                        <AiFillHtml5 className="text-5xl" />
-                        <DiCss3 className="text-5xl" />
-                      </div>
-                      <br />- Création d'une API REST avec Node.js et Express.js{" "}
-                      <br /> <br />
-                      - Création d'une base de données avec PostgreSQL <br />{" "}
-                      <br />
-                      - Création de l'authentification avec JWT <br /> <br />
-                      - Back-end d'un formulaire de contact avec nodemailer,
-                      xoauth et GoogleAPI <br /> <br />
-                      - Écriture de tests grâce à Jest <br /> <br />- Aide sur
-                      le front-end avec React.js
+                    
+                    <div className="flex gap-3">
+                      <TbBrandNextjs className="text-5xl" />
+                      <GrReactjs className="text-5xl" />
+                      <SiFirebase className="text-5xl" />
+                      <AiFillHtml5 className="text-5xl" />
+                      <SiTailwindcss className="text-5xl" />
+                      <SiVercel className="text-5xl" />
                     </div>
-                    <div className="flex items-center flex-wrap ">
+                    <br />
+                    - Création d'une interface responsive, mobile first avec
+                    tailwind CSS <br /> <br />
+                    - Création d'une interface dynamique et affichage
+                    conditionnel avec ReactJS, utilisation du state ainsi que de
+                    logique dans le JSX <br /> <br />
+                    - Utilisation de Recoil afin de gérer le store de
+                    l'application <br /> <br />
+                    - Création d'une base de données avec Firebase afin de gérer
+                    les likes, les commentaires et les posts <br /> <br />
+                    - Prise en main du framework React, NextJs <br /> <br />
+                    - Création de l'authentification avec Google comme provider
+                    grâce à NextAuth <br /> <br />
+                    - Récupérer les données d'une API <br /> <br />
+                    - Déploiement de l'application sur Vercel et gestion des
+                    variables d'environnement <br /> <br />
+                    <div className="flex items-center flex-wrap">
                       <a
-                        href="https://savoirs.surge.sh/"
+                        href="https://instagram-copy-alpha.vercel.app/"
                         target="_blank"
                         className="text-blue-500 inline-flex items-center md:mb-2 lg:mb-0"
                       >
@@ -148,86 +154,7 @@ export default function Home() {
                     </div>
                     <div className="flex items-center flex-wrap ">
                       <a
-                        href="https://github.com/Alizea-Masse/transmission-savoirs-back"
-                        target="_blank"
-                        className="text-blue-500 inline-flex items-center md:mb-2 lg:mb-0"
-                      >
-                        Visiter le github
-                        <svg
-                          className="w-4 h-4 ml-2"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                          strokeWidth="2"
-                          fill="none"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        >
-                          <path d="M5 12h14"></path>
-                          <path d="M12 5l7 7-7 7"></path>
-                        </svg>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-               <div className="p-4 md:w-1/3">
-                <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden w-72">
-                  <Image
-                    className="lg:h-48 md:h-32 w-43 object-fill object-center"
-                    src={Logo}
-                    alt="blog"
-                  />
-                  <div className="p-6">
-                    <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
-                      PROJET
-                    </h2>
-                    <h1 className="title-font text-lg font-medium text-gray-900 mb-3 dark:text-gray-300">
-                      Rêve Réalité Production
-                    </h1>
-                    <div className="leading-relaxed mb-3">
-                      Réalisation complète d'un site web afin de présenter les spectacles de magie d'une boite de production bordelaise. <br /> <br />
-                      {/* icons */}
-                      <div className="flex gap-3">
-                        <FaNodeJs className="text-5xl" />
-                        <GrReactjs className="text-5xl" />
-                        <AiFillHtml5 className="text-5xl" />
-                        <DiCss3 className="text-5xl" />
-                      </div>
-                      <br /> <br />
-                      - Création d'une interface responsive avec HTML/CSS et Styled Components
-                      <br /> <br />
-                      - Dynamisation du site et mise place d'un routeur avec REACT
-                      <br /> <br />
-                      - Création d'annimation grace à la bibliothèque AOS
-                      <br /> <br />
-                      - Back-end d'un formulaire de contact avec nodemailer,
-                      xoauth et GoogleAPI 
-                    </div>
-                    <div className="flex items-center flex-wrap ">
-                      <a
-                        href="https://reve-realite.surge.sh/"
-                        target="_blank"
-                        className="text-blue-500 inline-flex items-center md:mb-2 lg:mb-0"
-                      >
-                        Visiter le site
-                        <svg
-                          className="w-4 h-4 ml-2"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                          strokeWidth="2"
-                          fill="none"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        >
-                          <path d="M5 12h14"></path>
-                          <path d="M12 5l7 7-7 7"></path>
-                        </svg>
-                      </a>
-                    </div>
-                    <div className="flex items-center flex-wrap ">
-                      <a
-                        href="https://github.com/Alizea-Masse/reve-pro"
+                        href="https://github.com/Alizea-Masse/instagram2.0"
                         target="_blank"
                         className="text-blue-500 inline-flex items-center md:mb-2 lg:mb-0"
                       >
@@ -494,10 +421,10 @@ export default function Home() {
                 </div>
               </div>
               <div className="p-4 md:w-1/3">
-                <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden w-72">
+                <div className=" border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden w-72 ">
                   <Image
                     className="lg:h-48 md:h-36 w-full object-contain object-center"
-                    src={insta}
+                    src={savoirsApp}
                     alt="blog"
                   />
                   <div className="p-6">
@@ -505,47 +432,32 @@ export default function Home() {
                       PROJET
                     </h2>
                     <h1 className="title-font text-lg font-medium text-gray-900 mb-3 dark:text-gray-300">
-                      Instagram Copy
+                      Transmission des savoirs
                     </h1>
-                    <p className="leading-relaxed mb-3">
-                      <a
-                        className="bg-slate-200 rounded-sm p-1 dark:text-gray-500"
-                        href="https://www.youtube.com/watch?v=a6Xs2Ir40OI"
-                        target="_blank"
-                      >
-                        Tutoriel
-                      </a>{" "}
-                      réalisé dans le but de parfaire mes connaissances,
-                      découvrir de nouvelles technologies ainsi que témoigner de
-                      mon adaptabilité. Il m'est possible d'expliquer toutes les
-                      étapes du code.{" "}
-                    </p>
-                    <div className="flex gap-3">
-                      <TbBrandNextjs className="text-5xl" />
-                      <GrReactjs className="text-5xl" />
-                      <SiFirebase className="text-5xl" />
-                      <AiFillHtml5 className="text-5xl" />
-                      <SiTailwindcss className="text-5xl" />
-                      <SiVercel className="text-5xl" />
+                    <div className="leading-relaxed mb-3">
+                      Réalisation de la partie back-end d'un site de petites
+                      annonces. <br /> <br />
+                      {/* icons */}
+                      <div className="flex gap-3">
+                        <FaNodeJs className="text-5xl" />
+                        <DiPostgresql className="text-5xl" />
+                        <GrReactjs className="text-5xl" />
+                        <AiFillHtml5 className="text-5xl" />
+                        <DiCss3 className="text-5xl" />
+                      </div>
+                      <br />- Création d'une API REST avec Node.js et Express.js{" "}
+                      <br /> <br />
+                      - Création d'une base de données avec PostgreSQL <br />{" "}
+                      <br />
+                      - Création de l'authentification avec JWT <br /> <br />
+                      - Back-end d'un formulaire de contact avec nodemailer,
+                      xoauth et GoogleAPI <br /> <br />
+                      - Écriture de tests grâce à Jest <br /> <br />- Aide sur
+                      le front-end avec React.js
                     </div>
-                    <br />
-                    - Création d'une interface responsive, mobile first avec
-                    tailwind CSS <br /> <br />
-                    - Création d'une interface dynamique et affichage
-                    conditionnel avec ReactJS, utilisation du state ainsi que de
-                    logique dans le JSX <br /> <br />
-                    - Utilisation de Recoil afin de gérer le store de
-                    l'application <br /> <br />
-                    - Création d'une base de données avec Firebase afin de gérer
-                    les likes, les commentaires et les posts <br /> <br />
-                    - Prise en main du framework React, NextJs. <br /> <br />
-                    - Création de l'authentification avec Google comme provider
-                    grâce à NextAuth <br /> <br />
-                    - Déploiement de l'application sur Vercel et gestion des
-                    variables d'environnement <br /> <br />
-                    <div className="flex items-center flex-wrap">
+                    <div className="flex items-center flex-wrap ">
                       <a
-                        href="https://instagram-copy-alpha.vercel.app/"
+                        href="https://savoirs.surge.sh/"
                         target="_blank"
                         className="text-blue-500 inline-flex items-center md:mb-2 lg:mb-0"
                       >
@@ -566,7 +478,7 @@ export default function Home() {
                     </div>
                     <div className="flex items-center flex-wrap ">
                       <a
-                        href="https://github.com/Alizea-Masse/instagram2.0"
+                        href="https://github.com/Alizea-Masse/transmission-savoirs-back"
                         target="_blank"
                         className="text-blue-500 inline-flex items-center md:mb-2 lg:mb-0"
                       >
@@ -588,6 +500,171 @@ export default function Home() {
                   </div>
                 </div>
               </div>
+
+               <div className="p-4 md:w-1/3">
+                <div className=" border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden w-72">
+                  <Image
+                    className="lg:h-48 md:h-32 w-43 object-fill object-center"
+                    src={Logo}
+                    alt="blog"
+                  />
+                  <div className="p-6">
+                    <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                      PROJET
+                    </h2>
+                    <h1 className="title-font text-lg font-medium text-gray-900 mb-3 dark:text-gray-300">
+                      Rêve Réalité Production
+                    </h1>
+                    <div className="leading-relaxed mb-3">
+                      Réalisation complète d'un site web afin de présenter les spectacles de magie d'une boite de production bordelaise. <br /> <br />
+                      {/* icons */}
+                      <div className="flex gap-3">
+                        <FaNodeJs className="text-5xl" />
+                        <GrReactjs className="text-5xl" />
+                        <AiFillHtml5 className="text-5xl" />
+                        <DiCss3 className="text-5xl" />
+                      </div>
+                      <br /> <br />
+                      - Création d'une interface responsive avec HTML/CSS et Styled Components
+                      <br /> <br />
+                      - Dynamisation du site et mise place d'un routeur avec REACT
+                      <br /> <br />
+                      - Création d'annimation grace à la bibliothèque AOS
+                      <br /> <br />
+                      - Back-end d'un formulaire de contact avec nodemailer,
+                      xoauth et GoogleAPI 
+                    </div>
+                    <div className="flex items-center flex-wrap ">
+                      <a
+                        href="https://reve-realite.surge.sh/"
+                        target="_blank"
+                        className="text-blue-500 inline-flex items-center md:mb-2 lg:mb-0"
+                      >
+                        Visiter le site
+                        <svg
+                          className="w-4 h-4 ml-2"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                          fill="none"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        >
+                          <path d="M5 12h14"></path>
+                          <path d="M12 5l7 7-7 7"></path>
+                        </svg>
+                      </a>
+                    </div>
+                    <div className="flex items-center flex-wrap ">
+                      <a
+                        href="https://github.com/Alizea-Masse/reve-pro"
+                        target="_blank"
+                        className="text-blue-500 inline-flex items-center md:mb-2 lg:mb-0"
+                      >
+                        Visiter le github
+                        <svg
+                          className="w-4 h-4 ml-2"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                          fill="none"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        >
+                          <path d="M5 12h14"></path>
+                          <path d="M12 5l7 7-7 7"></path>
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="p-4 md:w-1/3">
+                <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden w-72">
+                  <Image
+                    className="lg:h-48 md:h-36 w-full object-contain object-center"
+                    src={greenzon}
+                    alt="blog"
+                  />
+                  <div className="p-6">
+                    <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                      PROJET
+                    </h2>
+                    <h1 className="title-font text-lg font-medium text-gray-900 mb-3 dark:text-gray-300">
+                      Greenzon
+                    </h1>
+                   
+                    <div className="flex gap-3">
+                      <TbBrandNextjs className="text-5xl" />
+                      <GrReactjs className="text-5xl" />
+                      <SiFirebase className="text-5xl" />
+                      <AiFillHtml5 className="text-5xl" />
+                      <SiTailwindcss className="text-5xl" />
+                      <SiVercel className="text-5xl" />
+                    </div>
+                    <br />
+                    - Création d'une interface responsive, mobile first avec
+                    tailwind CSS <br /> <br />
+                    - Création d'une interface dynamique et affichage
+                    conditionnel avec ReactJS, utilisation du state ainsi que de
+                    logique dans le JSX <br /> <br />
+                    - Utilisation de Redux afin de gérer le store de
+                    l'application <br /> <br />
+                    - Création d'une base de données avec Firebase afin de gérer
+                    les commandes <br /> <br />
+                    - Prise en main du framework React, NextJs <br /> <br />
+                    - Récupérer les données d'une API <br /> <br />
+                    - Création de l'authentification avec Google comme provider
+                    grâce à NextAuth <br /> <br />
+                    - Mise en place d'une solution de paiement avec Stripe et liaison des commandes avec la base de données firebase <br /> <br />
+                    - Déploiement de l'application sur Vercel et gestion des
+                    variables d'environnement <br /> <br />
+                    <div className="flex items-center flex-wrap">
+                      <a
+                        href="https://greenzon.vercel.app/"
+                        target="_blank"
+                        className="text-blue-500 inline-flex items-center md:mb-2 lg:mb-0"
+                      >
+                        Visiter le site
+                        <svg
+                          className="w-4 h-4 ml-2"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                          fill="none"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        >
+                          <path d="M5 12h14"></path>
+                          <path d="M12 5l7 7-7 7"></path>
+                        </svg>
+                      </a>
+                    </div>
+                    <div className="flex items-center flex-wrap ">
+                      <a
+                        href="https://github.com/Alizea-Masse/greenzon"
+                        target="_blank"
+                        className="text-blue-500 inline-flex items-center md:mb-2 lg:mb-0"
+                      >
+                        Visiter le github
+                        <svg
+                          className="w-4 h-4 ml-2"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                          fill="none"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        >
+                          <path d="M5 12h14"></path>
+                          <path d="M12 5l7 7-7 7"></path>
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+             
               
               
             </div>

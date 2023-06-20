@@ -14,6 +14,7 @@ import LinkedIn from "../../public/images/linkedin_logo.png";
 import Gmail from "../../public/images/Gmail-Logo.png";
 import Logo from "../../public/images/Logo_noir.png";
 import greenzon from "../../public/images/greenzonport.png";
+import motus from "../../public/images/motus_logo_2010.png";
 import { useState } from "react";
 
 export default function Home() {
@@ -37,7 +38,7 @@ export default function Home() {
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between">
             <h1 className="text-2xl font-BebasNeue dark:text-gray-300">
-              Développer par Alizéa Massé
+              Développé par Alizéa Massé
             </h1>
             <ul className="flex items-center">
               <li>
@@ -664,6 +665,9 @@ export default function Home() {
                   </div>
                 </div>
               </div>
+
+
+              
              
               
               
